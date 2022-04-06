@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    background-color: #1b1b1b;
+    margin-top:auto;
+    height: 100px;
+
+    &__logo img{
+        width: 50px;
+        height: 50px;
+    }
+
+    &__description {
+        p {
+            a {
+                color: #f9564f;
+                text-decoration: none;
+            }
+        }
+    }
+}

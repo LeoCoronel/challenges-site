@@ -1,0 +1,43 @@
+.card {
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    display: grid;
+    place-content: center;
+    box-shadow: 10px 16px 10px rgb(216, 215, 215);
+    background-color: #f3f3f3;
+    margin: 5px;
+
+    &__thumbnail {
+        width: 220px;
+        height: 220px;
+        border-radius: 10px;
+        overflow: hidden;
+        transform: translateY(-10px);
+        &__image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__title {
+        font-weight: 500;
+    }
+
+    &__links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a img {
+            width: 40px;
+            margin: 5px;
+            fill: red;
+        }
+
+        a:hover {
+            animation: pulse .8s forwards;
+        }
+    }
+}

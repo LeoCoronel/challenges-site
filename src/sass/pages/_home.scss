@@ -1,0 +1,33 @@
+.home {
+    text-align: center;
+    color: #5D6063;
+    display: grid;
+    place-content: center;
+    margin-top: 350px;
+    margin-bottom: 350px;
+    height: 75vh;
+
+    &__title {
+        font-size: 3em;
+        font-weight: 300;
+    }
+
+    &__description {
+        font-weight: 300;
+        padding: 1em;
+        a {
+            text-decoration: none;
+            color: #f9564f;
+        }
+    }
+
+    @media (min-width: 600px) {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+
+    @media (min-width: 900px) {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,25 @@
+@import
+  'abstracts/variables',
+  'abstracts/mixins';
+
+@import
+  'vendors/reset';
+
+@import
+  'base/animations',
+  'base/base',
+  'base/typography';
+
+@import
+  'layout/header',
+  'layout/footer';
+
+@import
+  'components/card',
+  'components/pagination',
+  'components/thumbnails';
+
+@import
+  'pages/home',
+  'pages/cards',
+  'pages/contact';

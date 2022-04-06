@@ -1,0 +1,24 @@
+.pagination {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 60px;
+
+    &__item, .clicked {
+        width: 35px;
+        height: 35px;
+        border-radius: 5px;
+        display: grid;
+        place-content: center;
+        cursor: pointer;
+        &__link {
+            text-decoration: none;
+            color: #5D6063;
+        }
+
+        .clicked {
+            background-color: #f9564f;
+            color: #fff;
+        }
+    }
+}
