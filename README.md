@@ -12,7 +12,7 @@ Esta web cumple la función de mostrar los challenges de FrontEnd que voy resolv
   
 ## Deployed
 
-[Vercel](https://nucba-project-leocoronel.vercel.app)
+[Vercel](https://challenges-site.vercel.app)
 
   
 ## Agradecimientos
